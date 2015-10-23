@@ -1,2 +1,2 @@
 # Notes
-A website for notes and opinions. Seperate from project portfolio.
+A website for my notes and opinions. Seperate from project portfolio.
