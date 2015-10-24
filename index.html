@@ -1,10 +1,37 @@
 <html>
 <head>
-    <title>Empty (for now)</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WASV | Notebook</title>
+    <meta name="description" content="A collection of my notes, ideas, and writings.">
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Empty (for now)</h1>
-    <p>Still working on awesome stuff to put here.</p>
-    <p>For now please go to <a href="http://www.wastevensv.com/">www.wastevensv.com</a> or <a href="http://github.wasv.me/">my GitHub Profile</a></p>
+    <div id="container">
+        <div id="sidebar">
+            <h1>Notebook</h1>
+            <p>A collection of my notes, ideas, and writings.</p>
+            <ul id="nav">
+            </ul>
+            <p id="copy">
+              Licensed under <a onclick="loadmd('LICENSE.md')" href='#'>MIT LICENSE</a>.
+            <br/><br/>
+              Made by <a target="_blank" href="http://www.wastevensv.com">William A Stevens V</a>
+            </p>
+        </div>
+        <div id="note" class="markdown">
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/marked.min.js"></script>
+    <script src="js/loadmd.js"></script>
+    <script>
+        loadindex("notes/index.json");
+        loadmd("notes/index.html")
+    </script>
 </body>
 </html>
