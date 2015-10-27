@@ -16,6 +16,7 @@ function rendernote () {
     note = $("#note");
     oldhtml = note.html();
     note.html(marked(oldhtml))
+    $("#note a").attr("target","_blank");
 }
 
 function loadindex(path) {
