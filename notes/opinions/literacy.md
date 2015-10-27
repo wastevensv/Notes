@@ -10,7 +10,7 @@ I'm now realizing that this superpower may be more plausible than I originally t
 ## How it Failed
 I still stand by these ideas. However, the reality of creating a platform based on the promise of zero censorship is much easier said than done. It opens the doors to trolls and harrassment far more than it attracts actual writers. I realized this before hitting 20 stories. Instead of spending all my time playing editor, I decided to shut down the platform.
 
-If you used HundredStories or are reading this and want to use it, I heavily encourage you to start a website like this one. Use it as place where you can publish your own opinions. I'm spending $35 annually to keep two domains running with privacy protection. I hope that there are other people out there who find there ideas are worth $0.10 a day and have the courage to share them with the world.
+If you used HundredStories or are reading this and want to use it, I heavily encourage you to start a website like this one. Use it as place where you can publish your own opinions. I'm spending $35 annually to keep two domains running with privacy protection. I hope that there are other people out there who find their ideas are worth $0.10 a day and have the courage to share those ideas with the world.
 
 ---
 
