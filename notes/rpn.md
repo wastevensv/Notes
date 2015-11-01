@@ -5,4 +5,6 @@ My most recent work has been a reverse polish notation calculator. I was introdu
 
 This program is still a rough draft. It was mostly written within one hour. I plan to extend the language so that I can clear the stack, print the stack unmodified, and add some more operations.
 
+**UPDATE 11/1/15** I recently implemented the ability to clear the stack and cleanly quit the program.
+
 The source code for this program can be found in my [scrap-code](https://github.com/wastevensv/scrap-code/tree/master/python) repository.
