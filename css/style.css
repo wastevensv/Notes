@@ -16,6 +16,9 @@
     margin-left:160px;
     margin-right:5px;
 }
+pre {
+  white-space: pre-wrap;
+}
 #copy {
     margin-top:50px;
     height:auto;
