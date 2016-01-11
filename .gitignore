@@ -1,0 +1,3 @@
+*.swp
+.rsync-filter
+*~

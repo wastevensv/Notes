@@ -82,9 +82,13 @@ a {
 }
 
 i {
-	color: Black;
+    color: Black;
 }
 
 p {
     margin-bottom:.5em;
+}
+
+em {
+    font-style: italic;
 }

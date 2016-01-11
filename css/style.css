@@ -16,8 +16,12 @@
     margin-left:190px;
     margin-right:5px;
 }
+img {
+    max-width:100%;
+    max-height:300px;
+}
 pre {
-  white-space: pre-wrap;
+    white-space: pre-wrap;
 }
 #copy {
     margin-top:50px;
