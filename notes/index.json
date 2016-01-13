@@ -1,9 +1,15 @@
-[
-    "opinions/ideas.md",
-    "opinions/literacy.md",
-    "opinions/freewrite.txt",
-    "rpn.md",
-    "avr-rpn.md",
-    "theatre.html",
-    "index.html"
-]
+{
+    "index.html":"index.html",
+    "opinions": {
+        "opinions/ideas.md":"ideas.md",
+        "opinions/literacy.md":"literacy.md",
+        "opinions/freewrite.txt":"opinions.md"
+    },
+    "rpn": {
+        "rpn.md":"py-rpn.md",
+        "avr-rpn.md":"avr-rpn.md"
+    },
+    "misc": {
+        "theatre.html":"theatre.html"
+    }
+}

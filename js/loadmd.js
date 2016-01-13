@@ -31,12 +31,24 @@ function rendertxtnote () {
     $("#note a").attr("target","_blank");
 }
 
+function generatenav( structure ) {
+    var navhtml = "";
+    $.each( structure, function( key, val ) {
+        if(typeof(val) == "string") {
+            navhtml += "<li><a onclick=\"loadmd('"+key+"')\" href='#"+key+"'>" + val + "</a></li>\n" ;
+        } else if(typeof(val) == "object") {
+            navhtml += "<li><b>"+key+"</b></li>\n"
+            navhtml += "<ul>\n";
+            navhtml += generatenav(val);
+            navhtml += "</ul>\n";
+        }
+    });
+    return navhtml;
+}
+
 function loadindex(path) {
     $.getJSON( path, function( data ) {
-        var items = [];
-        $.each( data, function( index, val ) {
-            items.push( "<li><a onclick=\"loadmd('"+val+"')\" href='#"+val+"'>" + val + "</a></li>" );
-        });
-        $("#nav").html(items.join("\n"))
-    });
+        navhtml = generatenav( data );
+        $("#nav").html(navhtml);
+   });
 }

@@ -1,3 +1,4 @@
 *.swp
 .rsync-filter
+.deploycmd
 *~
