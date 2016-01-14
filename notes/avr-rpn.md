@@ -1,5 +1,26 @@
 # [avRPN-Calc](https://github.com/wastevensv/avRPN-Calc/) (An AVR [RPN](https://en.wikipedia.org/wiki/Reverse_Polish_notation) Calculator)
 
+
+
+## Updates:
+
+### January 14th, 2016
+The parts came in for the new keypad design. I assembled a circuit with the IO expander and LCD connected to the Arduino through the same i2c bus. Communication appears to be working, but the IO expander isn't picking up any button presses. I spent most of last night and this morning troubleshooting it. See the [dev branch](https://github.com/wastevensv/avRPN-Calc/tree/dev) on GitHub for my current work. The keys folder will currently show the received state of the IO expander GPIO. I may need to work on how I wired the buttons.
+
+### January 12th, 2016
+I now have an implementation of the language in the project repository. It also includes a type-independent implementation of a stack in C. Storing values are not yet implemented.
+
+I'm also waiting on parts for a redesigned keypad. The new design will use an i2c IO expander rather than trying to read a keyboard matrix.
+
+### January 10th, 2016
+So far, I have a few tests in the [project repository](https://github.com/wastevensv/avRPN-Calc/) to verify that the LCD can display characters, and that the keypad can detect keypresses.
+
+The LCD works, and the keypad can detect if a key is pressed. However, I have run into some trouble with scanning the keys. The keypad will occasionally send the wrong keypress to screen (typically one directly above or below the correct key). I believe using some debouncing could solve the problem, or possibly changing the scanning function to only detect a change in keypress.
+
+This is still a work in progress, but I've learned a lot in the process and I look forward to seeing where this goes.
+
+-----
+
 ## Intro
 
 During the winter break after my first semester of college, I participated in [CSH](http://csh.rit.edu/)'s 24 hour remote hackathon. This was a great opportunity to develop a project over the course of 24 hours while working with a great group of people across the country.
@@ -25,13 +46,6 @@ The LCD communicates via a TWI (aka i2c) bus. This is accomplished using a minim
 The 15 buttons are wired in a 3x5 [matrix](https://en.wikipedia.org/wiki/Keyboard_matrix_circuit) (similar to a computer keyboard). The Arduino scans one row at a time, and checks if any keys in that row are pressed, then advances to the next. This reduces the number of pins from 15 to 8 at the expense of slightly more code.
 
 In addition to the key matrix, there is also an 'alt' key. This allows each key to have a primary function and an alternate function. In this case, it allows access to the variables functionality described in the software section.
-
-## Current State of the Project
-So far, I have a few tests in the [project repository](https://github.com/wastevensv/avRPN-Calc/) to verify that the LCD can display characters, and that the keypad can detect keypresses.
-
-The LCD works, and the keypad can detect if a key is pressed. However, I have run into some trouble with scanning the keys. The keypad will occasionally send the wrong keypress to screen (typically one directly above or below the correct key). I believe using some debouncing could solve the problem, or possibly changing the scanning function to only detect a change in keypress.
-
-This is still a work in progress, but I've learned a lot in the process and I look forward to seeing where this goes.
 
 -----
 
