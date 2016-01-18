@@ -1,8 +1,11 @@
 # [avRPN-Calc](https://github.com/wastevensv/avRPN-Calc/) (An AVR [RPN](https://en.wikipedia.org/wiki/Reverse_Polish_notation) Calculator)
 
-
-
 ## Updates:
+
+### January 18th, 2016
+I've worked out the remaining bugs in keypad reading code. It turns out that the prebuilt keypad I was using was causing an issue. After I rebuilt the keypad circuit with 16 individual buttons, each with a pullup resistor, I was able to work out the remaining software bugs. I went through a few different iterations, gradually adding more debugging code. One iteration involved reading each register on the IO expander hoping to figure out what the state of the device was. It was only after I simplified the code, essentially starting over, that I could figure out how to read the state properly.
+
+The current code displays the hex value read from IO expander and the keycode it matches. I'm still working on a way to get interrupts to work, but I should be able to get my final code to work without them. The code in the [keys folder](https://github.com/wastevensv/avRPN-Calc/tree/master/keys).
 
 ### January 14th, 2016
 The parts came in for the new keypad design. I assembled a circuit with the IO expander and LCD connected to the Arduino through the same i2c bus. Communication appears to be working, but the IO expander isn't picking up any button presses. I spent most of last night and this morning troubleshooting it. See the [dev branch](https://github.com/wastevensv/avRPN-Calc/tree/dev) on GitHub for my current work. The keys folder will currently show the received state of the IO expander GPIO. I may need to work on how I wired the buttons.
@@ -21,11 +24,14 @@ This is still a work in progress, but I've learned a lot in the process and I lo
 
 -----
 
+# Original Writeup
+*Does not reflect the current state of the project.*
+
 ## Intro
 
 During the winter break after my first semester of college, I participated in [CSH](http://csh.rit.edu/)'s 24 hour remote hackathon. This was a great opportunity to develop a project over the course of 24 hours while working with a great group of people across the country.
 
-For my project I worked on an AVR based calculator. My project was a bit overly ambitious for the 24 hour time period. However, I worked out a lot of the initial hardware and some of the basic software. I plan to make progress on this project over the remainder of my project.
+For my project I worked on an AVR based calculator. My project was a bit overly ambitious for the 24 hour time period. However, I worked out a lot of the initial hardware and some of the basic software. I plan to make progress on this project over the remainder of my vacation.
 
 ## Software
 
