@@ -2,6 +2,13 @@
 
 ## Updates:
 
+### January 20th, 2016
+No functional updates this time, just some more documentation as I prepare to return to college. The basic schematic below should (hopefully) be enough for me to reassemble this project after getting back to college. In additon, I have an updated photo of the hardware layout and a brief 'cheatsheet' for the MCP23017 IO expander I've been using. I got 4 of them for $1.20 each at [Digikey](https://www.digikey.com/product-detail/en/MCP23017-E%2FSP/MCP23017-E%2FSP-ND/894272).
+
+![My current wiring of the project](img/avr-rpn/wiring.png)
+![My updated prototype](img/avr-rpn/prototype-2.png)
+![Notes on the MCP23017 IO Expander](img/avr-rpn/io-exp-notes.png)
+
 ### January 18th, 2016
 I've worked out the remaining bugs in keypad reading code. It turns out that the prebuilt keypad I was using was causing an issue. After I rebuilt the keypad circuit with 16 individual buttons, each with a pullup resistor, I was able to work out the remaining software bugs. I went through a few different iterations, gradually adding more debugging code. One iteration involved reading each register on the IO expander hoping to figure out what the state of the device was. It was only after I simplified the code, essentially starting over, that I could figure out how to read the state properly.
 
