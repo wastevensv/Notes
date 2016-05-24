@@ -10,6 +10,7 @@
         "avr-rpn.md":"avr-rpn.md"
     },
     "misc": {
-        "theatre.html":"theatre.html"
+        "theatre.html":"theatre.html",
+        "opengl-opencv.md":"opengl-opencv.md"
     }
 }
