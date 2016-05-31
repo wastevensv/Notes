@@ -27,3 +27,7 @@ pre {
     height:auto;
     font-size:.75em;
 }
+#note ul {
+   list-style: square; 
+   padding-left: 16px;
+}
