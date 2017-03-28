@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/wasv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.wasv.me
+  * I am wasv (https://keybase.io/wasv) on keybase.
+  * I have a public key with fingerprint E273 F4CE 5F2F 817A C717  99F2 3465 01FA B7B4 DB6B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c3a9e29c2668490f73c35984024bf239cb6aa4ce225eade85553a8f3032273a10a",
+            "fingerprint": "e273f4ce5f2f817ac71799f2346501fab7b4db6b",
+            "host": "keybase.io",
+            "key_id": "346501fab7b4db6b",
+            "kid": "0101cb3909cb013f9253d7d8bd260391d3874624dd8fd889addafd10fcff359d23500a",
+            "uid": "49f94204084a1135b2e61c9dd0267c19",
+            "username": "wasv"
+        },
+        "service": {
+            "hostname": "www.wasv.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1490745234,
+    "expire_in": 157680000,
+    "prev": "67719c3e83b96b6a5310f8dcd6d608c7d218a8716857eb71c59d21a5f7c90c02",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.66
+Comment: https://keybase.io/crypto
+
+yMNjAnicbVJrTBRXGGVBsCKrpdDWCEWZtqlWwJk77y0pRkEoot1aLCtgl5m5d5bJ
+rrvLzrKLARptNRp8VFd/QBBj2opIUwkJkQhUgqkhlba0YECFGk26tgalUgl9RLB3
+SPnX++fmft85557v8Y05KiLWxCDTP50dY07TQF+oMsJ2+89QNSF74B7CUk040fyF
+XBDpfrtTg4SFIClAKrQkIiAqgOMERiRVnlZoVhQYEjCyCmhRkTlJYhQEAIskiASW
+ZWlJUGmSBoCnJYqUiDRC1dwO5PP6NLcfyyKcUDGFVYEqULyk8BQviliM4ViSUiWZ
+lxkoczImlnt0g4HNyZKOMjQPjuGHfd7e/+AXfJOUItMiid2RFK2KgKUhDwUZAo6k
+RQrSAs9wgIFQUKEgiBKEkgopUlVUFRcHAc2S874r5+UYURUZQDKkwEgURbMyQByl
+iBCSgOMVSjSAOvK5pd0Io4OSHiBq0wgcCWgKMppqVLGQDQYzDEQGfqURXp/H71E8
+Lpwo9/u9FoPn3+OdByLZ/p+EXdbcEHcQEwLIp2seN2GhMFLxa4YmhcfCMyxuXxqB
+qryaD9k1A8HynEDiY3yDAliS43lKVGgk0LLI4bGxNC5ZgArkIEcKCg8BJUgCT3EC
+yyOZpxSjFZTEqrwikgoJCKOoCrcHa9PYp+TAmrrmcEv+Sh8iaq/2lS6KMMVGxERH
+GqsVEbvk+YWFc/Yuf2bNLk5sXB+sP507d38X03InZfphY+V0QmFN06vjPROvbMk/
+GOZONOesEVNLzqAT3S85WnbGraueaYcTw1tvmRztizsSfXND+tPQ1VsJwFPaKwwN
+u37OCZ7deO0jW8+cf3ho7RU+c+rujSq7Wdtg/at0L9f/wYfc8q/ShfuxyR+/l/7j
+qe2rJsOFfz9a0VW4L1z21rQHLnOeC19vvqkrIytNNvMX2z6rcwUV65mGfVW/5Y36
+Hjf0OTXnTvnL24h7bsz5cDDvhQenHoHk/r7X9JI7W96N37uWTn69Y6Mr7/skoaZ4
+l+9gSvRme1zSmOlkljO+sa/O5owb7RiJsRQN1+y4CLZNvf87KIxZP3u2ePCwaF6X
+uH/m10DHkRRaPAzzLl9wkrVlvf6hlvHjtW8yVeqsdWw8VL0ibJt4sent0+coOb/+
+6O7GYyuzlkSxueYeuDTZ2t3kHkj9iWMTt7e2fTtgzU3NXvZy+nFL/6LIutalRZlu
+b/n+1dElTy5smi1oHv30AXWga7PZLyV8ssquF087msEfwaKvs+/JFVr40C+XI8va
+Jge3CpuaWzNdGyZ3PO22j3dO51z6IVzgCXx+5MA1X23qjdXfTaVLd0W45snF2Zl7
+DZ2PK9pSIxNDz6S0qKFDN3PfONp+8kpXVn7o/HlbqKBkqn7knevxl5KkxU3VWYUj
++r8XZrcN
+=utGI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wasv
+
+==================================================================
