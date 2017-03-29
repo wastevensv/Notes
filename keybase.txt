@@ -21,6 +21,11 @@ To do so, I am signing this object:
             "uid": "49f94204084a1135b2e61c9dd0267c19",
             "username": "wasv"
         },
+        "revoke": {
+            "sig_ids": [
+                "273ea878b9f618bb654f89cb5f5453cb5b85f3eed798357343480d75d5c4b66f0f"
+            ]
+        },
         "service": {
             "hostname": "www.wasv.me",
             "protocol": "http:"
@@ -28,10 +33,10 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1490745234,
+    "ctime": 1490745598,
     "expire_in": 157680000,
-    "prev": "67719c3e83b96b6a5310f8dcd6d608c7d218a8716857eb71c59d21a5f7c90c02",
-    "seqno": 13,
+    "prev": "38a940a6c4db79703bc9e70e98a2eb2dc6a3c02a074cefcb506f465d313e9e6f",
+    "seqno": 14,
     "tag": "signature"
 }
 
@@ -41,30 +46,31 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.66
 Comment: https://keybase.io/crypto
 
-yMNjAnicbVJrTBRXGGVBsCKrpdDWCEWZtqlWwJk77y0pRkEoot1aLCtgl5m5d5bJ
-rrvLzrKLARptNRp8VFd/QBBj2opIUwkJkQhUgqkhlba0YECFGk26tgalUgl9RLB3
-SPnX++fmft85557v8Y05KiLWxCDTP50dY07TQF+oMsJ2+89QNSF74B7CUk040fyF
-XBDpfrtTg4SFIClAKrQkIiAqgOMERiRVnlZoVhQYEjCyCmhRkTlJYhQEAIskiASW
-ZWlJUGmSBoCnJYqUiDRC1dwO5PP6NLcfyyKcUDGFVYEqULyk8BQviliM4ViSUiWZ
-lxkoczImlnt0g4HNyZKOMjQPjuGHfd7e/+AXfJOUItMiid2RFK2KgKUhDwUZAo6k
-RQrSAs9wgIFQUKEgiBKEkgopUlVUFRcHAc2S874r5+UYURUZQDKkwEgURbMyQByl
-iBCSgOMVSjSAOvK5pd0Io4OSHiBq0wgcCWgKMppqVLGQDQYzDEQGfqURXp/H71E8
-Lpwo9/u9FoPn3+OdByLZ/p+EXdbcEHcQEwLIp2seN2GhMFLxa4YmhcfCMyxuXxqB
-qryaD9k1A8HynEDiY3yDAliS43lKVGgk0LLI4bGxNC5ZgArkIEcKCg8BJUgCT3EC
-yyOZpxSjFZTEqrwikgoJCKOoCrcHa9PYp+TAmrrmcEv+Sh8iaq/2lS6KMMVGxERH
-GqsVEbvk+YWFc/Yuf2bNLk5sXB+sP507d38X03InZfphY+V0QmFN06vjPROvbMk/
-GOZONOesEVNLzqAT3S85WnbGraueaYcTw1tvmRztizsSfXND+tPQ1VsJwFPaKwwN
-u37OCZ7deO0jW8+cf3ho7RU+c+rujSq7Wdtg/at0L9f/wYfc8q/ShfuxyR+/l/7j
-qe2rJsOFfz9a0VW4L1z21rQHLnOeC19vvqkrIytNNvMX2z6rcwUV65mGfVW/5Y36
-Hjf0OTXnTvnL24h7bsz5cDDvhQenHoHk/r7X9JI7W96N37uWTn69Y6Mr7/skoaZ4
-l+9gSvRme1zSmOlkljO+sa/O5owb7RiJsRQN1+y4CLZNvf87KIxZP3u2ePCwaF6X
-uH/m10DHkRRaPAzzLl9wkrVlvf6hlvHjtW8yVeqsdWw8VL0ibJt4sent0+coOb/+
-6O7GYyuzlkSxueYeuDTZ2t3kHkj9iWMTt7e2fTtgzU3NXvZy+nFL/6LIutalRZlu
-b/n+1dElTy5smi1oHv30AXWga7PZLyV8ssquF087msEfwaKvs+/JFVr40C+XI8va
-Jge3CpuaWzNdGyZ3PO22j3dO51z6IVzgCXx+5MA1X23qjdXfTaVLd0W45snF2Zl7
-DZ2PK9pSIxNDz6S0qKFDN3PfONp+8kpXVn7o/HlbqKBkqn7knevxl5KkxU3VWYUj
-+r8XZrcN
-=utGI
+yMOsAnicbVJtUFVFGL4YaGAMKpMhSjgnc8rwzp6z52uxkcRQs2syMqViinvO7sIR
+vJfuvXBVomZuEkFIU5aU5RimDE5+4KCpNZEII6H0ASVhpoCIophoOBrJaHuY/Nf+
+2dnd532e532fbYx8yBERItOQfw4fPJsdcqr+ep5j2e9/3ysQDA9ZLyQWCNl0ZKM5
+hPr8GdkWERIFIErAhBhRCZmSquoyAkyDJlSQLgNJNpgEkWmoGMsmlSSFYkJ1RVEg
+1hkEUJI0iEWAhQSBWe5M6s31Wm4/p6X8gfEShUlMFzVsaqKGECeTVQWIDBuaIRND
+NXhhlsdnV3BzBvZRp+Xhd/yQMWLvf/APfAPRNCAC3B0QIUOSAolGdINIKoBIJFDX
+ZFWSCdEZ0XWECcGMiICZjPHmiAQVMOI7b4RORgzJEpCBLmNRhIohUVU0ESFAUjVT
+RDbQR71uvJZydAD78oXCBMFL8z3Z1J6pz8rkhn1C4gqBd06xrukGYqqoG4aqyEzn
+LhWmyArku6ErDFJKNKRDRYMylHVANIUopmyoKgNMWMm5uVq+ZY6Q2xN6oBwIOG11
+Jz8lCLlej99jenL4Q5bfn5toe/Kvzx0BUiPjP4oMw3ITng4vyKden+VxC4kiR5p+
+y+YUeeSarPDAEwS6Ltfy0gzLRiiaqgO+bBmab2ehYyQDrJo8CQ1pABomohqgSMcS
+NSRiqhiaQMKczaSMNwpUxuMjUIQUUZUJdlOvuT22JPeJMzknn5sb+/O8VCg8Xv9q
+qCMkwjE6bJT9bR0R4eMefObLyVH3Zo/KCgbuHJqSGjuhZKy4AS3LjQ0t6P9wids7
+dcHXfSUTb1091YqdXTcjG+KqV9e88oeuN5RM/SQstXGgYlzo8qJ5Dx/IamalVd+P
+vuJs6L4bM2XDc00795YdH8/eiUON8c/216948sb9u0nRTzyeNfRx35h9B2FHA1k2
+YcWeS5N7WyqGDk/eYv72dMUzeSfk2Km3L0SnXS/NvHr0vaT9DvGcu3hv9eDut9Zt
+ebelp6Dts9S6sM1pab1XIr784pfB5gVnXfuq3BfHClGDZS+ddCXP7OgLHlmd2V+z
+S4yLu1a+r7ry24jnf9xcNRO3uIbC08a3LXgz7VhHSN+JHXK8MyJp6Ue3Zk6qG1vZ
+u2japPimr0aV33Y84g3E+l8437zt5cIzla8PeHeUnmuuuFy3+Mr99qVhaz641bkc
+zCgYurOqfOKNQ/sTa2JZ+uZ7jybAztr0jZ2e6T9kfyouDJa9WB6z/VfX/KByLCjt
+gVFPtc6eNWf8pcpVRa7gmOjP+3vm/lVcMyP6gj/HU7vpQEp26C7hjcjWRbt3Lm2L
+2fr2HHX+z9sb0r8L/ynqpjM8OLcopTf8/Nn2a4Gjhy6KNcXD8QPv1znnp+5e+U17
+0nAFfiwn/lhb6ekz3XuK1qrD8/qqpqHBq9q65CWxp3uu93Rt9SVs/PPkMLQON6bW
+BgZaiqtdltI0vSKla9amI9sca1wTFy6e3P0vK27fWQ==
+=roCO
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
